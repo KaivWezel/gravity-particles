@@ -1,16 +1,14 @@
 {
-  "name": "nuxt-app",
+  "name": "gravity-particles",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "dependencies": {
-    "nuxt": "^3.12.4",
-    "vue": "latest"
+  "devDependencies": {
+    "vite": "^5.3.4"
   }
 }
